@@ -1,0 +1,41 @@
+.trusted{
+    background-color: #ed1651;
+}
+h4 {
+  color: white;
+}
+p{
+    color: white;
+}
+.videothumb img{
+    height: 100%;
+    border-radius: 10px;
+}
+.playbuton{
+    display: grid;
+    place-items: center;
+    height: 1em;
+    width: 1em;
+    border: none;
+    border-radius: 50%;
+    background: #ed1651;
+    cursor: pointer;
+    transition: all 0.5s;
+    animation: pulse 1.3s ease infinite;
+}
+.playbuton::before{
+    content: "";
+    display: inline-block;
+    border-left: 0.3em solid;
+    border-top: 0.18em solid transparent;
+    border-bottom: 0.18em solid transparent;
+    margin-right: -0.08em;
+}
+@keyframes pulse{
+    0%{
+        box-shadow: 0em 0em 0em 0em white;
+    }
+    100%{
+        box-shadow: 0em 0em 0em 0.5em #ed1651;
+    }
+}

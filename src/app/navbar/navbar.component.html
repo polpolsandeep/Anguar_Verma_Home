@@ -1,0 +1,138 @@
+<nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand">
+      <img src="/assets/image/logo.svg" alt="logo01" width="55%"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="demo" >Home</a>
+        </li>
+        <li class="nav-item dropdown01">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Projects
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="demo" >Kochi</a></li>
+            <li><a class="dropdown-item" routerLink="demo">Trivandrum</a></li>
+            <li><a class="dropdown-item" routerLink="demo">Thrissur</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown01">
+          <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About-Us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="demo" >Company Profile</a></li>
+            <li><a class="dropdown-item" routerLink="demo">Varma Care</a></li>
+            <li><a class="dropdown-item" routerLink="demo">Testimonials</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="demo">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true" routerLink="demo">Contact-Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" >
+        <a class="nav-link mx-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="/assets/image/whatsapp-icon.svg" alt="whatsup" width="35px" height="35px"/>
+        </a>
+           <ul class="list-unstyled mx-2">
+            <li class="nav-item position-relative pe-2 dropdown01">
+              <a class="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="/assets/image/phone-call-icon.svg" alt="phone" width="35px" height="35px"/>
+              </a>
+              <ul class="dropdown-menu position-absolute end-0">
+                <li><a class="dropdown-item" routerLink="demo">India:+91 9645883333</a></li>
+                <li><a class="dropdown-item" routerLink="demo">UAE:+971521254110</a></li>
+              </ul>
+            </li>
+           </ul>
+          <button class="icon-btn mx-3" routerLink="demo" type="button">Online Enquiry</button>
+          <!-- Off Canvas Symbol Start -->
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <span class="navbar-toggler-icon"></span>      
+          </button>
+          <!-- Off Canvas Symbol End -->
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Off Canvas Start-->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <nav class="navbar">
+        <div class="container">
+          <ul class="list-unstyled">
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link active" aria-current="page" routerLink="demo" >Home</a>
+            </li>
+            <li class="nav-item dropdown01 my-3 mx-3">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" routerLink="demo" >Kochi</a></li>
+                <li><a class="dropdown-item" routerLink="demo">Trivandrum</a></li>
+                <li><a class="dropdown-item" routerLink="demo">Thrissur</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown01 my-3 mx-3">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About-Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" routerLink="demo" >Company Profile</a></li>
+                <li><a class="dropdown-item" routerLink="demo">Varma Care</a></li>
+                <li><a class="dropdown-item" routerLink="demo">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link" aria-current="page" routerLink="demo">Gallery</a>
+            </li>
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link" aria-disabled="true" routerLink="demo">Contact-Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="px-3">
+          <ul class="list-unstyled">
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link active" routerLink="demo" aria-current="page">News</a>
+            </li>
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link active" routerLink="demo" aria-current="page">Blog</a>
+            </li>
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link active" routerLink="demo" aria-current="page">Joint Venture Enquiry</a>
+            </li>
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link active" routerLink="demo" aria-current="page">Careers</a>
+            </li>
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link active" routerLink="demo" aria-current="page">Media Center</a>
+            </li>
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link active" routerLink="demo" aria-current="page">Emi Calculator</a>
+            </li>
+            <li class="nav-item my-3 mx-3">
+              <a class="nav-link active" routerLink="demo" aria-current="page">Refer & Earn</a>
+            </li>
+          </ul>
+          <div class="px-2">
+            <button class="icon-btn"  type="button">Quick Start</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Off Canvas End-->

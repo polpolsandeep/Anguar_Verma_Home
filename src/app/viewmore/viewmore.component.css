@@ -1,0 +1,28 @@
+.viewmore{
+   margin-left: 250px;
+}
+.viewmore1{
+    margin-left: 165px;
+}
+.heading01{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.date{
+    margin-left: 300px;
+}
+.playbuton{
+    border: 15px solid #ed1651;
+    background: #ed1651;
+    border-radius: 50%;
+    margin-top: -25px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.card-body p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+}
